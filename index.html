@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>timer</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    
+    <h1 class="countdown-title">Countdown Clock</h1>
+
+    <section class="countdown">
+      <div class="countdown-number">
+        <input type="text" class="minutes countdown-time" placeholder="00"></input>
+        <p class="countdown-text">Minutes</p>
+      </div>
+      <div class="countdown-number">
+        <p class="separator">:</p>
+      </div>
+      <div class="countdown-number">
+        <input type="text" class="seconds countdown-time" placeholder="00"></input>
+        <p class="countdown-text">Seconds</p>
+      </div>
+    </section>
+
+    <div>
+      <button class="minus">&#9664;</button>
+      <button class="plus">&#9654;</button>
+    </div>
+
+    <div>
+      <button class="start">start</button>
+      <button class="pause">| |</button>
+      <button class="reset">reset</button>
+    </div>
+
+    <div>
+      <audio src="./the-chemist-timer-bomb.mp3"></audio>
+    </div>
+
+    <div class="message">
+      <p>I'm done...<br>press reset-button</p>
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./timer.js"></script>
+  </body>
+</html>
